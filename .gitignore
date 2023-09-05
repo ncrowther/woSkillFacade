@@ -1,0 +1,12 @@
+
+*.zip
+*.syncEntries
+*.class
+*.sem
+*.jar
+*.war
+*.dsar
+*.DS_Store
+*.log
+*node_modules*
+nodejs/.cfignore

@@ -1,0 +1,21 @@
+{
+  "name": "ibm-taxex-openapi-3-0",
+  "version": "1.0.15",
+  "description": "This is a sample Taxex Server based on the IBM 3.0 specification.  You can find out more about IBM at [http://IBM.io](http://IBM.io). In the third iteration of the pet store, we've switched to the design first approach! You can now help us improve the API whether it's by making changes to the definition itself or to the code. That way, with time, we can improve the API in general, and expose some of the new features in OAS3.  Some useful links: - [The Taxex repository](https://github.com/IBM-api/IBM-Taxex) - [The source API definition for the Taxex](https://github.com/IBM-api/IBM-Taxex/blob/master/src/main/resources/openapi.yaml)",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "swagger"
+  ],
+  "license": "Unlicense",
+  "private": true,
+  "dependencies": {
+    "connect": "^3.2.0",
+    "js-yaml": "^3.3.0",
+    "oas3-tools": "^2.2.3",
+    "request": "^2.88.2"
+  }
+}
