@@ -4,7 +4,7 @@ var utils = require('../utils/writer.js');
 var Taxex = require('../service/TaxexService');
 
 module.exports.classifyEmail = function classifyEmail (req, res, next, body, projectId, apiKey) {
-  console.log("Req: " + JSON.stringify(req));
+  //console.log("Req: " + JSON.stringify(req));
   Taxex.getBearer(req, apiKey)
     .then(function (bearerTokenResponse) {
       console.log('****bearerTokenResponse: ', bearerTokenResponse);
